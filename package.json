@@ -1,0 +1,22 @@
+{
+  "name": "numconverter",
+  "version": "1.0.0",
+  "description": "Number system convert in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenticny/numconverter.git"
+  },
+  "author": "kenticny <kenticny@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenticny/numconverter/issues"
+  },
+  "homepage": "https://github.com/kenticny/numconverter#readme",
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
