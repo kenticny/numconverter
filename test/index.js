@@ -9,8 +9,10 @@ describe('Convert unit test', () => {
   it('62 (10 -> 62) = 10', () => testconvert(62, 10, 62, 10))
   it('287382 (10 -> 62) = 1cLc', () => testconvert(287382, 10, 62, '1cLc'))
   it('28739847 (10 -> 58) = 2vhkz', () => testconvert(28739847, 10, 58, '2vhkz'))
+  it('1524234 (10 -> 40) = nwpy', () => testconvert(1524234, 10, 40, 'nwpy'))
 
   it('55 (16 -> 10) = 85', () => testconvert(55, 16, 10, 85))
+  it('33df89eedc4f (16 -> 62) = gc8sncxp', () => testconvert('33df89eedc4f', 16, 62, 'gc8sncxp'))
 })
 
 function testconvert(num, from, to, expect) {
