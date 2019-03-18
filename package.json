@@ -1,5 +1,5 @@
 {
-  "name": "numconverter",
+  "name": "@kenticny/numconverter",
   "version": "1.0.0",
   "description": "Number system convert in Javascript",
   "main": "index.js",
